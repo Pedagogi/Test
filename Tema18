@@ -4,7 +4,7 @@ Type TFunction=Function(fi:double):double;
 
 {$F+}
 
-Function PolarToCartesianX,(r,fi:double):double;
+Function Changing(r,fi:double):double;
  begin
  PolarToCartesianX:= r*cos(f);
  end;
