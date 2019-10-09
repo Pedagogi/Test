@@ -1,9 +1,6 @@
 Type TFunction=Function(fi:double):double;
 
-Function r1(fi:double):double;
- begin
- r1:=sin(3*fi);
- end;
+
 
 {$F+}
 
@@ -12,9 +9,9 @@ Function PolarToCartesianX,(r,fi:double):double;
  PolarToCartesianX:= r*cos(f);
  end;
 
-Function PolarToCartesianY,(r,fi:double):double;
+Function r1(fi:double):double;
  begin
- PolarToCartesianY:= r*sin(f);
+ r1:=sin(3*fi);
  end;
 
 {$F-}
